@@ -1,0 +1,17 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem;
+  padding-left: 5%;
+  padding-right: 5%;
+  background: black;
+  height: 5vh;
+  align-items: center;
+}
+
+.logo {
+  height: 3rem;
+  width: 100%;
+  object-fit: contain;
+}

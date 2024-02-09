@@ -1,0 +1,72 @@
+.body {
+  background-image: url("../../../public/assets/background1.png"); /* Adjust path if necessary */
+  background-size: cover;
+  background-position: center;
+  height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  width: max-content;
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.img {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.5);
+  animation: appear 2s ease-in;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.button {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.link {
+  background: black;
+  text-decoration: none;
+  color: yellow;
+  padding: 0.5rem;
+  border-radius: 15px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}

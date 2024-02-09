@@ -1,0 +1,6 @@
+.name {
+  font-size: clamp(1vh, 1vh + 2vw, 3vh);
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
