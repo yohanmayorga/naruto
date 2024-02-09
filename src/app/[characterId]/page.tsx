@@ -39,7 +39,7 @@ export default async function CharacterPage({
         </div>
         <div className={styles.button}>
           <Link href="/characters" className={styles.link}>
-            Volver
+            Return
           </Link>
         </div>
       </div>
